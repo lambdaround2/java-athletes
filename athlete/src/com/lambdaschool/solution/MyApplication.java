@@ -13,7 +13,7 @@ public class MyApplication implements Processor
     @Override
     public void displayAthlete()
     {
-        System.out.println("\n************");
+        System.out.println("************");
         athleteSrv.displayAthlete();
         System.out.println("************\n");
     }
